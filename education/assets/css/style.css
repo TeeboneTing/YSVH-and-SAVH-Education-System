@@ -1,0 +1,31 @@
+.login {
+	margin:0 auto;
+	width:300px; 
+	border-radius:6px; 
+	background-color:#047FD1;
+}
+
+.login-content{
+	align:left;
+	margin:0 auto;
+	width:220px;
+	color:#FFFFFF;
+}
+
+.function {
+	margin:0 auto;
+	width:700px; 	
+}
+
+.content{
+	align:center;
+	margin:0 auto;
+	width:420px;
+	color:#FFFFFF;
+}
+
+.buttom{
+	width:110px; 
+	height:100px;
+	
+}
