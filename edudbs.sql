@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS `admin_user` (
 --
 
 INSERT INTO `admin_user` (`EPID`, `level`) VALUES
-('A123456789', 5),
+('A123456789', 5);
 
 
 -- --------------------------------------------------------
@@ -389,7 +389,7 @@ CREATE TABLE IF NOT EXISTS `ftctl_employ` (
   KEY `H` (`EPNO`,`EPID`),
   KEY `D` (`EPID`),
   FULLTEXT KEY `PWLASTDATE` (`PWLASTDATE`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ftctl_employ`
@@ -579,7 +579,7 @@ CREATE TABLE IF NOT EXISTS `savh_ftctl_employ` (
   KEY `H` (`EPNO`,`EPID`),
   KEY `D` (`EPID`),
   FULLTEXT KEY `PWLASTDATE` (`PWLASTDATE`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `savh_ftctl_employ`
@@ -766,7 +766,7 @@ CREATE TABLE IF NOT EXISTS `ysvh_ftctl_employ` (
   KEY `G` (`EPNO`,`INDAY`),
   KEY `H` (`EPNO`,`EPID`),
   FULLTEXT KEY `PWLASTDATE` (`PWLASTDATE`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ysvh_ftctl_employ`
